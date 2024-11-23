@@ -18,3 +18,50 @@ $(".menu-element__link").click(function() {
     $(".menu-element__link.active").removeClass('active');
     thisElement.addClass('active');
 });
+
+/*Slider*/
+
+const swiper = new Swiper('.achievements-list', {
+    loop: true,
+    
+    slidesPerView: 3,
+    spaceBetween: 30,
+    centeredSlides: true,
+    effect: 'slide',
+
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      bulletClass: 'slider__controls-element',
+      bulletActiveClass: 'slider__controls-element-active',
+    },
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    autoplay: {
+        Delay: 2500,
+        disableOnInteraction: false,
+    },
+
+    breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+    }
+});
+
+Fancybox.bind("[data-fancybox]", {
+    // Your custom options
+});
