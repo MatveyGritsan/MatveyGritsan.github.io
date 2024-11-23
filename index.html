@@ -6,7 +6,7 @@
           content="width=divice-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     
     <link rel="stylesheet" href="css/reset.css">
-    
+
     <!--  JQuery  -->
     <script src="js/jquery-3.7.1.js"></script>
 
@@ -17,10 +17,11 @@
     <!-- Fancy box opening image-->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
-	
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/media.css">
+
     
     <title>Business card website</title>
     
@@ -28,7 +29,8 @@
 </head>
 <body>
     <div class="header-top">
-            <a href="#home" class="link logo block-center">Matvey&nbsp;Gritsan</a>
+            <a href="#home" class="link logo block-center" lang="text-en">Matvey&nbsp;Gritsan</a>
+            <a href="#home" class="link logo block-center" lang="text-ru">Матвей&nbsp;Грицан</a>
             <nav class="navigation">
                 <ul class="menu block-center">
                     <li class="menu-element">
@@ -39,17 +41,23 @@
                             </svg>
                         </a></li>
                     <li class="menu-element">
-                        <a class="link menu-element__link block-center" href="#about-me">About&nbsp;me</a></li>
+                        <a class="link menu-element__link block-center" href="#about-me" lang="text-en">About&nbsp;me</a>
+                        <a class="link menu-element__link block-center" href="#about-me"lang="text-ru">обо&nbsp;мне</a></li>
                     <li class="menu-element">
-                        <a class="link menu-element__link block-center" href="#achievements">Achievments</a></li>
+                        <a class="link menu-element__link block-center" href="#achievements" lang="text-en">Achievments</a>
+                        <a class="link menu-element__link block-center" href="#achievements" lang="text-ru">Достижения</a></li>
                     <li class="menu-element">
-                        <a class="link menu-element__link block-center" href="#skills">Skills</a></li>
+                        <a class="link menu-element__link block-center" href="#skills" lang="text-en">Skills</a>
+                        <a class="link menu-element__link block-center" href="#skills" lang="text-ru">Навыки</a></li>
                     <li class="menu-element">
-                        <a class="link menu-element__link block-center" href="#work">Work</a></li>
+                        <a class="link menu-element__link block-center" href="#work" lang="text-en">Work</a>
+                        <a class="link menu-element__link block-center" href="#work" lang="text-ru">Работа</a></li>
                     <li class="menu-element">
-                        <a class="link menu-element__link block-center" href="#interests">Interests</a></li>
+                        <a class="link menu-element__link block-center" href="#interests" lang="text-en">Interests</a>
+                        <a class="link menu-element__link block-center" href="#interests" lang="text-ru">Интересы</a></li>
                     <li class="menu-element">
-                        <a class="link menu-element__link block-center" href="#books">Books</a></li>
+                        <a class="link menu-element__link block-center" href="#books" lang="text-en">Books</a>
+                        <a class="link menu-element__link block-center" href="#books" lang="text-ru">Книги</a></li>
                     <li class="menu-element">
                         <a class="link menu-element__link block-center message" href="#contact-me"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"          class="size-6">
                             <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
@@ -63,8 +71,8 @@
                 <div class="switcher-wrapper">
                     <input type="checkbox" id="lang" checked>
                     <label  class="switcher" for="lang">
-                            <span>Eng</span>
-                            <span>Ru</span>
+                            <span lang="en">Eng</span>
+                            <span lang="ru">Ru</span>
                     </label>
                     </div>
             </div>
@@ -75,8 +83,10 @@
         
         <div class="header-center">
             <div class="header-center__wrapper">
-                <h1 class="name">Matvey&nbsp;Gritsan</h1>
-                <p class="description">Hello! My name is Matvey. I am web designer. Let's get acquainted.</p>
+                <h1 class="name" lang="text-en">Matvey&nbsp;Gritsan</h1>
+                <h1 class="name" lang="text-ru">Матвей&nbsp;Грицан</h1>
+                <p class="description" lang="text-en">Hello! My name is Matvey. I am web designer. Let's get acquainted.</p>
+                <p class="description" lang="text-ru">Привет! Меня зовут Матвей. Я начинающий web-дизайнер. Давайте знакомиться.</p>
             </div>
         </div>
     </header>
@@ -87,16 +97,33 @@
         </div>
 
         <div class="right">
-            <h2 class="about-me__title">Matvey Gritsan Alexandrovich</h2>
-            <p class="about-me__description gray">All of us a bit fullstack...</p>
+            <h2 class="about-me__title" lang="text-en">Matvey Gritsan Alexandrovich</h2>
+            <h2 class="about-me__title" lang="text-ru">Матвей Грицан Александрович</h2>
+            <p class="about-me__description gray" lang="text-en">All of us a bit fullstack...</p>
+            <p class="about-me__description gray" lang="text-ru">Все мы слегка fullstack...</p>
             
-            <p class="about-me__description">Hey there! I’m someone who loves to stay active and think creatively. Whether I’m hitting the gym, solving math problems, or spiking the volleyball, I enjoy pushing myself both physically and mentally. Staying in shape and challenging my body is a big part of my life, and I always find excitement in trying new activities and improving my fitness.
+            <p class="about-me__description" lang="text-en">Hey there! I’m someone who loves to stay active and think creatively. Whether I’m hitting the gym, solving math problems, or spiking the volleyball, I enjoy pushing myself both physically and mentally. Staying in shape and challenging my body is a big part of my life, and I always find excitement in trying new activities and improving my fitness.
+            </p>
+            <p class="about-me__description" lang="text-ru">Привет! Я тот, кто любит оставаться активным и мыслить творчески. Будь то тренировки в зале, решение математических задач или игра в волейбол, мне нравится бросать вызов себе как физически, так и умственно. Поддержание формы и работа над своим телом - важная часть моей жизни, и я всегда нахожу радость в освоении новых видов активности и улучшении своей физической подготовки.
             </p>
 
-            <p class="about-me__description">I’m a <a href="https://en.wikipedia.org/wiki/Alpine_skiing" target="_blank" class="link"> professional&nbsp;skier</a> who loves the thrill of the slopes. Skiing is more than just a sport for me—it’s something I’ve mastered and continue to improve on each season. I also have a natural love for math, which helps me think critically and solve complex problems. Besides numbers, I’m passionate about programming and enjoy creating projects that bring ideas to life. When I’m not coding, you’ll find me on the volleyball court having fun and staying active with friends.</p>
+            <p class="about-me__description" lang="text-en">I am
+              <a href="https://en.wikipedia.org/wiki/Alpine_skiing" target="_blank" class="link" lang="text-en">professional&nbsp;skier</a>
+               who loves the thrill of the slopes. Skiing is more than just a sport for me-it’s something I’ve mastered and continue to improve on each season. I also have a natural love for math, which helps me think critically and solve complex problems. Besides numbers, I’m passionate about programming and enjoy creating projects that bring ideas to life. When I’m not coding, you’ll find me on the volleyball court having fun and staying active with friends.</p>
+              
+            <p class="about-me__description" lang="text-ru">Я
+              <a href="https://en.wikipedia.org/wiki/Alpine_skiing" target="_blank" class="link" lang="text-ru">профессионал</a>
+              , который обожает адреналин от катания на склонах. Для меня лыжи - это больше, чем просто спорт; это то, в чем я достиг мастерства и продолжаю совершенствоваться с каждым сезоном. У меня также есть природная любовь к математике, которая помогает мне мыслить критически и решать сложные задачи. Помимо чисел, я увлечен программированием и получаю удовольствие от создания проектов, которые воплощают идеи в жизнь. А когда я не за компьютером, меня можно найти на волейбольной площадке, где я весело провожу время и остаюсь активным вместе с друзьями.</p>
 
-            <p class="about-me__description">Right now, I’m focused on diving deeper into <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank" class="link">web&nbsp;development</a>. Combining my interest in programming, math, and creativity, I’m excited to challenge myself to create functional, visually appealing websites. My goal is to continue learning and experimenting with new technologies, eventually building websites that are both practical and innovative. I’m eager to grow my skills in this area and see where this new adventure takes me!</p>
+            <p class="about-me__description" lang="text-en">Right now, I’m focused on diving deeper into 
+              <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank" class="link" lang="text-en">web&nbsp;development</a>.
+               Combining my interest in programming, math, and creativity, I’m excited to challenge myself to create functional, visually appealing websites. My goal is to continue learning and experimenting with new technologies, eventually building websites that are both practical and innovative. I’m eager to grow my skills in this area and see where this new adventure takes me!</p>
             
+            <p class="about-me__description" lang="text-ru">Сейчас я сосредоточен на углубленном изучении 
+              <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank" class="link" lang="text-ru">веб-разработки</a>.
+              Объединяя свой интерес к программированию, математике и творчеству, я с энтузиазмом принимаю вызов создавать функциональные и визуально привлекательные сайты. Моя цель - продолжать учиться и экспериментировать с новыми технологиями, создавая сайты, которые будут одновременно практичными и инновационными. Я стремлюсь развивать свои навыки в этой области и с нетерпением жду, куда приведет меня это новое приключение!</p>
+
+
             <ul class="about-me__extra">
                 <li class="about-me__extra-element">
                     <span class="about-me__extra-icon birthday"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
@@ -104,7 +131,8 @@
                         </svg>
                     </span>
                     <div class="about-me__extra-content">
-                        <span class="about-me__extra-title bold">Date of birth:</span>
+                        <span class="about-me__extra-title bold" lang="text-en">Date of birth:</span>
+                        <span class="about-me__extra-title bold" lang="text-ru">Дата рождения:</span>
                         <span class="about-me__extra-description">04.12.2006</span>
                     </div>
                 </li>
@@ -114,8 +142,10 @@
                         </svg>
                     </span>
                     <div class="about-me__extra-content">
-                        <span class="about-me__extra-title bold">Adress:</span>
-                        <span class="about-me__extra-description">Gyenesdias, Hungary</span>
+                        <span class="about-me__extra-title bold" lang="text-en">Adress:</span>
+                        <span class="about-me__extra-title bold" lang="text-ru">Адрес:</span>
+                        <span class="about-me__extra-description" lang="text-en">Gyenesdias, Hungary</span>
+                        <span class="about-me__extra-description" lang="text-ru">Денешдиаш, Венгрия</span>
                     </div>
                 </li>
                 <li class="about-me__extra-element">
@@ -126,8 +156,10 @@
                         </svg>
                     </span>
                     <div class="about-me__extra-content">
-                        <span class="about-me__extra-title bold">Education:</span>
-                        <span class="about-me__extra-description" >Hungary, Heviz BIBO</span>
+                        <span class="about-me__extra-title bold" lang="text-en">Education:</span>
+                        <span class="about-me__extra-title bold" lang="text-ru">Обучение:</span>
+                        <span class="about-me__extra-description" lang="text-en">Hungary, Heviz BIBO</span>
+                        <span class="about-me__extra-description" lang="text-ru">Венгрия, Хевиз BIBO</span>
                     </div>
                 </li>
 
@@ -137,44 +169,46 @@
     </section>
     
     <section class="achievements section-gray block-center" id="achievements">
-        <h2 class="second-title">Achievements</h2>
-        <div class="swiper achievements-list slider swiper-navigation-disabled">
-		<div class="swiper-wrapper">
-			<a href="images/achievements/blog-mathletics-achievement.png" data-fancybox="achievements" class="swiper-slide block-center">
-            			<img class="achievements-list__image slider__images" src="images/achievements/blog-mathletics-achievement.png" alt="">
-          		</a>
-		        <a href="images/achievements/Employee-Rewards-and-Recognition-1.png" data-fancybox="achievements" class="swiper-slide block-center">
-		       		<img class="achievements-list__image slider__images" src="images/achievements/Employee-Rewards-and-Recognition-1.png" alt="">
-		        </a>
-		        <a href="images/achievements/images.png" data-fancybox="achievements" class="swiper-slide block-center">
-		        	<img class="achievements-list__image slider__images" src="images/achievements/images.png" alt="">
-		        </a>
-			<a href="images/achievements/images.png" data-fancybox="achievements"" class="swiper-slide block-center">
-		        	<img class="achievements-list__image slider__images" src="images/achievements/images.png" alt="">
-		        </a>
-		        <a href="images/achievements/Employee-Rewards-and-Recognition-1.png" data-fancybox="achievements" class="swiper-slide block-center">
-		        	<img class="achievements-list__image slider__images" src="images/achievements/Employee-Rewards-and-Recognition-1.png" alt="">
-		        </a>
-		        <a href="images/achievements/Employee-Rewards-and-Recognition-1.png" data-fancybox="achievements" class="swiper-slide block-center">
-		        	<img class="achievements-list__image slider__images" src="images/achievements/Employee-Rewards-and-Recognition-1.png" alt="">
-		        </a>
-		        <a href="images/achievements/images.png" data-fancybox="achievements" class="swiper-slide block-center">
-		        	<img class="achievements-list__image slider__images" src="images/achievements/images.png" alt="">
-		        </a>
-		        <a href="images/achievements/Employee-Rewards-and-Recognition-1.png" data-fancybox="achievements" class="swiper-slide block-center">
-		        	<img class="achievements-list__image slider__images" src="images/achievements/Employee-Rewards-and-Recognition-1.png" alt="">
-		        </a>
-		        <a href="images/achievements/blog-mathletics-achievement.png" data-fancybox="achievements" class="swiper-slide block-center">
-		        	<img class="achievements-list__image slider__images" src="images/achievements/blog-mathletics-achievement.png" alt="">
-		        </a>
-		</div>
-		<div class="swiper-pagination"></div>
+        <h2 class="second-title" lang="text-en">Achievements</h2>
+        <h2 class="second-title" lang="text-ru">Достижения</h2>
+        
+		<div class="swiper achievements-list slider swiper-navigation-disabled">
+			  <div class="swiper-wrapper">
+				  <a href="images/achievements/blog-mathletics-achievement.png" data-fancybox="achievements" class="swiper-slide block-center">
+            <img class="achievements-list__image slider__images" src="images/achievements/blog-mathletics-achievement.png" alt="">
+          </a>
+          <a href="images/achievements/Employee-Rewards-and-Recognition-1.png" data-fancybox="achievements" class="swiper-slide block-center">
+            <img class="achievements-list__image slider__images" src="images/achievements/Employee-Rewards-and-Recognition-1.png" alt="">
+          </a>
+          <a href="images/achievements/images.png" data-fancybox="achievements" class="swiper-slide block-center">
+            <img class="achievements-list__image slider__images" src="images/achievements/images.png" alt="">
+          </a>
+			  	<a href="images/achievements/images.png" data-fancybox="achievements"" class="swiper-slide block-center">
+            <img class="achievements-list__image slider__images" src="images/achievements/images.png" alt="">
+          </a>
+          <a href="Employee-Rewards-and-Recognition-1.png" data-fancybox="achievements" class="swiper-slide block-center">
+            <img class="achievements-list__image slider__images" src="images/achievements/Employee-Rewards-and-Recognition-1.png" alt="">
+          </a>
+          <a href="images/achievements/Employee-Rewards-and-Recognition-1.png" data-fancybox="achievements" class="swiper-slide block-center">
+            <img class="achievements-list__image slider__images" src="images/achievements/Employee-Rewards-and-Recognition-1.png" alt="">
+          </a>
+          <a href="images/achievements/images.png" data-fancybox="achievements" class="swiper-slide block-center">
+            <img class="achievements-list__image slider__images" src="images/achievements/images.png" alt="">
+          </a>
+          <a href="images/achievements/Employee-Rewards-and-Recognition-1.png" data-fancybox="achievements" class="swiper-slide block-center">
+            <img class="achievements-list__image slider__images" src="images/achievements/Employee-Rewards-and-Recognition-1.png" alt="">
+          </a>
+          <a href="images/achievements/blog-mathletics-achievement.png" data-fancybox="achievements" class="swiper-slide block-center">
+            <img class="achievements-list__image slider__images" src="images/achievements/blog-mathletics-achievement.png" alt="">
+          </a>
+			  </div>
+			  <div class="swiper-pagination"></div>
 			
 			  <!-- If we need navigation buttons -->
-		<div class="swiper-button-prev"></div>
-		<div class="swiper-button-next"></div>
+			  <div class="swiper-button-prev"></div>
+			  <div class="swiper-button-next"></div>
 			
-	</div>
+		</div>
         <!--<div class="achievements-list slider">
             <input type="radio" class="slider-input" name="slider_achievements" id="slider-achievements-1" checked>
             <input type="radio" class="slider-input" name="slider_achievements" id="slider-achievements-2">
@@ -219,21 +253,24 @@
             </div>
 
         </div>
-        -->
+         -->
     </section>
         
     <section class="skills observer-section" id="skills">
-        <h2 class="second-title">Skills</h2>
+        <h2 class="second-title" lang="text-en">Skills</h2>
+        <h2 class="second-title" lang="text-ru">Навыки</h2>
 
-        <p class="section-description">Все оценки являются субъективными и показывают уровень, который,
-            как по мне, необходим для работы.</p>
+        <p class="section-description" lang="text-en">All assessments are subjective and reflect the level that, in my opinion, is necessary for the job.</p>
+        <p class="section-description" lang="text-ru">Все оценки являются субъективными и показывают уровень, который,
+              как по мне, необходим для работы.</p>
 
         <input type="radio" name="skills-filter-radio" id="skills-all" checked="">
         <input type="radio" name="skills-filter-radio" id="skills-html">
         <input type="radio" name="skills-filter-radio" id="skills-php">
 
         <div class="skills-filters block-center">
-            <label for="skills-all" class="skill-filter">Все</label>
+            <label for="skills-all" class="skill-filter" lang="text-en">All</label>
+            <label for="skills-all" class="skill-filter" lang="text-ru">Все</label>
             <label for="skills-html" class="skill-filter">Html/css</label>
             <label for="skills-php" class="skill-filter">Php</label>
         </div>
@@ -659,10 +696,11 @@
                     </div>
                 </div>
 
-                <p class="skill-card__description">Я люблю php. Это красивый и цельный язык программирования,
-                    который дает разработчику то, что ему нужно.
-                    В плохом коде всегда нужно задавать вопросы людям,
-                    а не языку программирования, поэтому, как бы php не хейтили - для меня он прекрасен!</p>
+                <p class="skill-card__description" lang="text-en">I love PHP. It's a beautiful and cohesive programming language that provides developers with exactly what they need. When it comes to bad code, the questions should always be directed at the people, not the programming language. So, no matter how much PHP gets criticized, for me, it’s amazing!</p>
+                <p class="skill-card__description" lang="text-ru">Я люблю php. Это красивый и цельный язык программирования,
+                      который дает разработчику то, что ему нужно.
+                      В плохом коде всегда нужно задавать вопросы людям,
+                      а не языку программирования, поэтому, как бы php не хейтили - для меня он прекрасен!</p>
             </div>
         </div>
 
@@ -980,7 +1018,10 @@
                     </div>
                 </div>
 
-                <p class="skill-card__description">Я люблю php. Это красивый и цельный язык программирования,
+                <p class="skill-card__description" lang="text-en">I love PHP. It's a beautiful and cohesive programming language that provides developers with exactly what they need. When it comes to bad code, the questions should always be directed at the people, not the programming language. So, no matter how much PHP gets criticized, for me, it’s amazing!I love PHP. It's a beautiful and cohesive programming language that provides developers with exactly what they need. When it comes to bad code, the questions should always be directed at the people, not the programming language. So, no matter how much PHP gets criticized, for me, it’s amazing!
+                </p> 
+                <p class="skill-card__description" lang="text-ru">
+                    Я люблю php. Это красивый и цельный язык программирования,
                     который дает разработчику то, что ему нужно.
                     В плохом коде всегда нужно задавать вопросы людям,
                     а не языку программирования, поэтому, как бы php не хейтили - для меня он прекрасен!</p>
@@ -1203,53 +1244,77 @@
                     </div>
                 </div>
 
-                <p class="skill-card__description">Я люблю php. Это красивый и цельный язык программирования,
+                <p class="skill-card__description" lang="text-en">I love PHP. It's a beautiful and cohesive programming language that provides developers with exactly what they need. When it comes to bad code, the questions should always be directed at the people, not the programming language. So, no matter how much PHP gets criticized, for me, it’s amazing!I love PHP. It's a beautiful and cohesive programming language that provides developers with exactly what they need. When it comes to bad code, the questions should always be directed at the people, not the programming language. So, no matter how much PHP gets criticized, for me, it’s amazing!
+                </p> 
+                <p class="skill-card__description" lang="text-ru">
+                    Я люблю php. Это красивый и цельный язык программирования,
                     который дает разработчику то, что ему нужно.
                     В плохом коде всегда нужно задавать вопросы людям,
                     а не языку программирования, поэтому, как бы php не хейтили - для меня он прекрасен!</p>
             </div>
         </div>
         </section>
-    
+
     <section class="work section-gray" id="work">
-        <h2 class="second-title">Work</h2>
+        <h2 class="second-title" lang="text-en">Work</h2>
+        <h2 class="second-title" lang="text-ru">Работа</h2>
         
         <div class="work-wrapper block-center">
             <div class="work-element work-element__animation left" data-year="2022">
                 <div class="work-element__content">
-                    <p class="work-element__title bold">Maintenance in Hotel</p>
-                    <p class="work-element__description">2022 Summer</p>
+                    <p class="work-element__title bold" lang="text-en">Maintenance in Hotel</p>
+                    <p class="work-element__title bold" lang="text-ru">Обслуживание в отеле</p>
+                    <p class="work-element__description" lang="text-en">2022 Summer</p>
+                    <p class="work-element__description" lang="text-ru">2022 Ktnj</p>
                     
-                    <p class="work-element__block-title bold">Skills</p>
+                    <p class="work-element__block-title bold" lang="text-en">Skills</p>
+                    <p class="work-element__block-title bold" lang="text-ru">Навыки</p>
                     <ul class="work-element__skills">
-                        <li class="work-element__skills-element">Communication skills</li>
-                        <li class="work-element__skills-element">Sterss resistance</li>
-                        <li class="work-element__skills-element">Attentiveness</li>
-                        <li class="work-element__skills-element">Goodwill</li>
+                        <li class="work-element__skills-element" lang="text-en">Communication skills</li>
+                        <li class="work-element__skills-element" lang="text-ru">Навыки общения</li>
+                        <li class="work-element__skills-element" lang="text-en">Sterss resistance</li>
+                        <li class="work-element__skills-element" lang="text-ru">Стресо устойчивость</li>
+                        <li class="work-element__skills-element" lang="text-en">Attentiveness</li>
+                        <li class="work-element__skills-element" lang="text-ru">Внимательность</li>
+                        <li class="work-element__skills-element" lang="text-en">Goodwill</li>
+                        <li class="work-element__skills-element" lang="text-ru">Доброжелательность</li>
                     </ul>
                 </div>
             </div>
             <div class="work-element work-element__animation right" data-year="2023">
                 <div class="work-element__content">
-                    <p class="work-element__title bold">Python programmer</p>
-                    <p class="work-element__description">2022 Summer - 2024</p>
+                    <p class="work-element__title bold" lang="text-en">Python programmer</p>
+                    <p class="work-element__title bold" lang="text-ru">Python програмист</p>
+                    <p class="work-element__description"lang="text-en">2022 Summer - 2024</p>
+                    <p class="work-element__description" lang="text-ru">2022 лето - 2024</p>
                     
-                    <p class="work-element__block-title bold">Projects</p>
+                    <p class="work-element__block-title bold" lang="text-en">Projects</p>
+                    <p class="work-element__block-title bold" lang="text-ru">Проэкты</p>
                     <ul class="work-element__projects">
-                        <li class="work-element__projects-element work-project">
-                            <span class="work-project__title">Snake game</span>
-                            <div class="work-project__tooltip">
-                                <p class="work-project__description">Helping with the project</p>
-                            </div>
+                        <li class="work-element__projects-element work-project" lang="text-en">
+                          <span class="work-project__title">Snake game</span>
+                          <div class="work-project__tooltip">
+                            <p class="work-project__description">Helping with the project</p>
+                          </div>
+                        </li>
+                        <li class="work-element__projects-element work-project" lang="text-ru">
+                          <span class="work-project__title">Змейка</span>
+                          <div class="work-project__tooltip">
+                            <p class="work-project__description">Помощь с проэктами</p>
+                          </div>
                         </li>
                     </ul>
                     
                     <p class="work-element__block-title">Skills</p>
                     <ul class="work-element__skills">
-                        <li class="work-element__skills-element">Communication skills</li>
-                        <li class="work-element__skills-element">Sterss resistance</li>
-                        <li class="work-element__skills-element">Attentiveness</li>
-                        <li class="work-element__skills-element">Goodwill</li>
+                        <li class="work-element__skills-element" lang="text-en">Communication skills</li>
+                        <li class="work-element__skills-element" lang="text-ru">Навыки общения</li>
+                        <li class="work-element__skills-element" lang="text-en">Sterss resistance</li>
+                        <li class="work-element__skills-element" lang="text-ru">Стресо устойчивость</li>
+                        <li class="work-element__skills-element" lang="text-en">Attentiveness</li>
+                        <li class="work-element__skills-element" lang="text-ru">Внимательность</li>
+                        <li class="work-element__skills-element" lang="text-en">Goodwill</li>
+                        <li class="work-element__skills-element" lang="text-ru">Доброжелательность</li>
                     </ul>
                 </div>
             </div>
@@ -1257,61 +1322,92 @@
     </section>
         
     <section class="interests" id="interests">
-        <h2 class="second-title">Interests</h2>
-        
+        <h2 class="second-title" lang="text-en">Interests</h2>
+        <h2 class="second-title" lang="text-ru">Интересы</h2>
         <div class="interest-list">
             <div class="interest-wrapper">
 
                 <img src="images/neoncity.jpg" alt="" class="interest-image"/>
 
-                <p class="interest-title bold">Title place</p>
-                <p class="interest-text">description about interest</p>
-                <p class="interest-text">description about interest</p>
-                <p class="interest-text">description about interest</p>
+                <p class="interest-title bold" lang="text-en">Title place</p>
+                <p class="interest-title bold" lang="text-ru">Заголовок</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-ru">Содержание1</p>
+                <p class="interest-text" lang="text-ru">Содержание2</p>
+                <p class="interest-text" lang="text-ru">Содержание3</p>
             </div>
             <div class="interest-wrapper">
 
                 <img src="images/neoncity.jpg" alt="" class="interest-image"/>
-                <p class="interest-title bold">Title place</p>
-                <p class="interest-text">description about interest</p>
-                <p class="interest-text">description about interest</p>
-                <p class="interest-text">description about interest</p>
+
+                <p class="interest-title bold" lang="text-en">Title place</p>
+                <p class="interest-title bold" lang="text-ru">Заголовок</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-ru">Содержание1</p>
+                <p class="interest-text" lang="text-ru">Содержание2</p>
+                <p class="interest-text" lang="text-ru">Содержание3</p>
 </div>
             <div class="interest-wrapper">
                 <img src="images/neoncity.jpg" alt="" class="interest-image"/>
-                <p class="interest-title bold">Title place</p>
-                <p class="interest-text">description about interest</p>
-                <p class="interest-text">description about interest</p>
-                <p class="interest-text">description about interest</p>
+
+                <p class="interest-title bold" lang="text-en">Title place</p>
+                <p class="interest-title bold" lang="text-ru">Заголовок</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-ru">Содержание1</p>
+                <p class="interest-text" lang="text-ru">Содержание2</p>
+                <p class="interest-text" lang="text-ru">Содержание3</p>
 </div>
             <div class="interest-wrapper">
                 <img src="images/neoncity.jpg" alt="" class="interest-image"/>
-                <p class="interest-title bold">Title place</p>
-                <p class="interest-text">description about interest</p>
-                <p class="interest-text">description about interest</p>
-                <p class="interest-text">description about interest</p>
+
+                <p class="interest-title bold" lang="text-en">Title place</p>
+                <p class="interest-title bold" lang="text-ru">Заголовок</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-ru">Содержание1</p>
+                <p class="interest-text" lang="text-ru">Содержание2</p>
+                <p class="interest-text" lang="text-ru">Содержание3</p>
 </div>
             <div class="interest-wrapper">
                 <img src="images/neoncity.jpg" alt="" class="interest-image"/>
-                <p class="interest-title bold">Title place</p>
-                <p class="interest-text">description about interest</p>
-                <p class="interest-text">description about interest</p>
-                <p class="interest-text">description about interest</p>
+
+                <p class="interest-title bold" lang="text-en">Title place</p>
+                <p class="interest-title bold" lang="text-ru">Заголовок</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-en">description about interest</p>
+                <p class="interest-text" lang="text-ru">Содержание1</p>
+                <p class="interest-text" lang="text-ru">Содержание2</p>
+                <p class="interest-text" lang="text-ru">Содержание3</p>
             </div>
             <div class="interest-wrapper">
             <img src="images/neoncity.jpg" alt="" class="interest-image"/>
-            <p class="interest-title bold">Title place</p>
-            <p class="interest-text">description about interest</p>
-            <p class="interest-text">description about interest</p>
-            <p class="interest-text">description about interest</p>
+
+            <p class="interest-title bold" lang="text-en">Title place</p>
+            <p class="interest-title bold" lang="text-ru">Заголовок</p>
+            <p class="interest-text" lang="text-en">description about interest</p>
+            <p class="interest-text" lang="text-en">description about interest</p>
+            <p class="interest-text" lang="text-en">description about interest</p>
+            <p class="interest-text" lang="text-ru">Содержание1</p>
+            <p class="interest-text" lang="text-ru">Содержание2</p>
+            <p class="interest-text" lang="text-ru">Содержание3</p>
         </div>
         </div>
     </section>
         
     <section class="books section-gray block-center" id="books">
-            <h2 class="second-title">Books read</h2>
-            <p class="section-description">These are not all of the books I have read, just those that had the greatest impression on me</p>
-
+        <h2 class="second-title" lang="text-en">Books read</h2>
+        <h2 class="second-title" lang="text-ru">Прочитанные книги</h2>
+        <p class="section-description" lang="text-en">These are not all of the books I have read, just those that had the greatest impression on me</p>
+        <p class="section-description" lang="text-ru">Это не все книги, которые я прочитал, а только те, которые произвели на меня наибольшее впечатление.</p>
+        
         <div class="swiper achievements-list slider swiper-navigation-disabled">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
@@ -1351,9 +1447,9 @@
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
         </div>
-            
-        <!--
-        <div class="book-list slider">
+        
+        
+        <!--<div class="book-list slider">
 
             <input type="radio" class="slider-input" name="slider_books" id="slider-books-1" checked>
             <input type="radio" class="slider-input" name="slider_books" id="slider-books-2">
@@ -1399,37 +1495,42 @@
                 <label for="slider-books-3" class="slider__controls-element"></label>
             </div>
         </div>
-        -->
+      -->
         </section>
         
     <section class="contact-me" id="contact-me">
-        <div class="contact-me-wrapper blur">
-        <h2 class="second-title">Contact Me</h2>       
+        <div class="contact-me-wrapper" id="contact-me-wrapper">
+        <h2 class="second-title" lang="text-en">Contact Me</h2>
+        <h2 class="second-title" lang="text-ru">Свяжитесь со мной</h2>
         
-        <form action="" class="contact-me__form">
+        <form action="https://formsubmit.co/matvey.gritsan@gmail.com" method="POST" class="contact-me__form">
             <div class="input-wrapper left">
-                <label for="name" class="label bold">Name</label>
-                <input class="input" type="text" id="name" placeholder="Write your name" required/>
+                <label for="name" class="label bold" lang="text-en">Name</label>
+                <label for="name" class="label bold" lang="text-ru">Имя</label>
+                <input class="input" type="text" id="name" name="name" placeholder="Write your name" required/>
             </div>
             <div class="input-wrapper right">
                 <label for="email" class="label bold">E-mail</label>
-                <input class="input" type="email" id="email" placeholder="Write your e-mail" required/>
+                <input class="input" type="email" id="email" name="email" placeholder="Write your e-mail" required/>
             </div>
             
             <div class="cls"></div>
 
             <div class="textarea-wrapper">
-                <label for="message" class="label bold">Message</label>
+                <label for="message" class="label bold" lang="text-en">Message</label>
+                <label for="message" class="label bold" lang="text-ru">Сообщение</label>
                 <textarea class="textarea" name="message" id="message"  placeholder="Describe in details your request" cols="30" rows="10" required></textarea>
             </div>
             
-            <button type="submit" class="submit">Send</button>
+            <button type="submit" class="submit" onClick="GFG_Fun()" lang="text-en">Send</button>
+            <button type="submit" class="submit" onClick="GFG_Fun()" lang="text-ru">Отправить</button>
         </form>
         </div>
 
         <div class="form-result block-center">
             <div class="form-result__content">
-                <p>Your massage has been sent</p>
+                <p lang="text-en">Your massage has been sent</p>
+                <p lang="text-ru">Ваше сообщение было отправлено</p>
             </div>
         </div>
         
@@ -1446,8 +1547,11 @@
             </li>
         </ul>
         
-        <p class="footer-about block-center">
+        <p class="footer-about block-center" lang="text-en">
             &copy;&nbsp;Matvey&nbsp;Gritsan&nbsp;2006
+        </p>
+        <p class="footer-about block-center" lang="text-ru">
+          &copy;&nbsp;Матвей&nbsp;Грицан&nbsp;2006
         </p>
         
     </footer>
