@@ -65,3 +65,21 @@ const swiper = new Swiper('.achievements-list', {
 Fancybox.bind("[data-fancybox]", {
     // Your custom options
 });
+
+/*Languge switch*/
+
+$('[lang="text-ru"]').hide();
+
+$("#lang").on('click', function() {
+  $('[lang="text-ru"]').toggle();
+  $('[lang="text-en"]').toggle();
+});
+
+/*blur activation */
+
+let down = document.getElementById('GFG_DOWN');
+function GFG_Fun() {
+    document.getElementsByClassName('form-result')[0].
+      style.visibility = 'visible';
+      document.getElementById("contact-me-wrapper").classList.add("blur");
+}
