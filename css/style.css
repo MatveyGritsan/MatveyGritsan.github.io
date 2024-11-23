@@ -929,6 +929,7 @@ input[name="skills-filter-radio"]:nth-of-type(3):checked ~ .skills-wrapper:nth-o
     top: 0;
     bottom: 0;
     background: var(--bacground-light-black-opasity);
+    visibility: hidden;
 }
 
 .form-result__content {
